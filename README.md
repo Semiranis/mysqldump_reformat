@@ -17,12 +17,12 @@ optimized, so can use a lot of memory and take a lot of time to finish the job.
 Possible enhancements:
 
 - in process_file():
--- readline (one line at a time) instead of readlines, to lower memory usage
--- write (append) processed line into file immediately and free the memory
--- force output file to be different than input file
+  - readline (one line at a time) instead of readlines, to lower memory usage
+  - write (append) processed line into file immediately and free the memory
+  - force output file to be different than input file
 
 - in ask_confirmation():
--- use list of allowed answers (e.g. "y", "yes", etc.), not only one option
+  - use list of allowed answers (e.g. "y", "yes", etc.), not only one option
 
 - in general:
--- use translated strings (localization, e.g. using gettext)
+  - use translated strings (localization, e.g. using gettext)
